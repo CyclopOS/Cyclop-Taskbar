@@ -1,90 +1,90 @@
-.dashtopanelMainPanel {
+.CyclopTaskbarMainPanel {
 	margin: 0;
 	padding: 0; 
 	border-radius: 0;
 }
 
-#dashtopanelTaskbar .dash-item-container > StWidget {
+#CyclopTaskbarTaskbar .dash-item-container > StWidget {
 	margin: 0;
 	padding: 0; 
 }
 
-#dashtopanelScrollview .app-well-app .overview-icon,
-.dashtopanelMainPanel .show-apps .overview-icon {
+#CyclopTaskbarScrollview .app-well-app .overview-icon,
+.CyclopTaskbarMainPanel .show-apps .overview-icon {
 	background: none;
 	border: none;
 	margin: 0;
 	padding: 0;
 }
 
-#dashtopanelScrollview .app-well-app .overview-label {
+#CyclopTaskbarScrollview .app-well-app .overview-label {
 	padding-right: 8px;
 }
 
-#dashtopanelScrollview .app-well-app:hover .overview-icon,
-#dashtopanelScrollview .app-well-app:focus .overview-icon {
+#CyclopTaskbarScrollview .app-well-app:hover .overview-icon,
+#CyclopTaskbarScrollview .app-well-app:focus .overview-icon {
 	background: none;
 }
 
-.dashtopanelMainPanel .show-apps:hover .overview-icon,
-#dashtopanelScrollview .app-well-app:hover .dtp-container,
-#dashtopanelScrollview .app-well-app:focus .dtp-container {
+.CyclopTaskbarMainPanel .show-apps:hover .overview-icon,
+#CyclopTaskbarScrollview .app-well-app:hover .dtp-container,
+#CyclopTaskbarScrollview .app-well-app:focus .dtp-container {
 	background-color: rgba(238, 238, 236, 0.1);
 }
 
-#dashtopanelScrollview .app-well-app:active .dtp-container {
+#CyclopTaskbarScrollview .app-well-app:active .dtp-container {
 	background-color: rgba(238, 238, 236, 0.18);
 }
 
-#dashtopanelScrollview .app-well-app .favorite {
+#CyclopTaskbarScrollview .app-well-app .favorite {
 	background-color: rgba(80, 150, 255, 0.4);
 }
 
-#dashtopanelScrollview .app-well-app-running-dot {
+#CyclopTaskbarScrollview .app-well-app-running-dot {
 	margin-bottom: 0;
 }
 
-#dashtopanelTaskbar .scrollview-fade {
+#CyclopTaskbarTaskbar .scrollview-fade {
 	background-gradient-end: rgba(0, 0, 0, 0);
 }
 
-.dashtopanelSecondaryMenu {
+.CyclopTaskbarSecondaryMenu {
 	max-width: 400px;
 }
 
-.dashtopanelMainPanel.vertical .panel-button {
+.CyclopTaskbarMainPanel.vertical .panel-button {
 	text-align: center; 
 }
 
-.dashtopanelMainPanel.vertical .panel-button.vertical *,
-.dashtopanelMainPanel.vertical .panel-button.clock-display * {
+.CyclopTaskbarMainPanel.vertical .panel-button.vertical *,
+.CyclopTaskbarMainPanel.vertical .panel-button.clock-display * {
 	padding: 0;
 	margin: 0; 
 }
 
-.dashtopanelMainPanel.vertical .panel-button > *,
-.dashtopanelMainPanel.vertical .panel-button.vertical > *,
-.dashtopanelMainPanel.vertical .panel-button.clock-display > * {
+.CyclopTaskbarMainPanel.vertical .panel-button > *,
+.CyclopTaskbarMainPanel.vertical .panel-button.vertical > *,
+.CyclopTaskbarMainPanel.vertical .panel-button.clock-display > * {
 	padding: 8px 0; 
 }
 
-#dashtopanelThumbnailList {
+#CyclopTaskbarThumbnailList {
 	spacing: 0em;
 	padding: 0 1em;
 }
 
-#dashtopanelThumbnailList .popup-menu-item {
+#CyclopTaskbarThumbnailList .popup-menu-item {
 	padding: 0;
 	border-radius: 3px;
 	spacing: 0;
 }
 
-#dashtopanelThumbnailList .window-box {
+#CyclopTaskbarThumbnailList .window-box {
 	padding: 0;
 	spacing: 0;
 }
 
-#dashtopanelThumbnailList .preview-window-title {
+#CyclopTaskbarThumbnailList .preview-window-title {
 	padding-top: 1em;
 }
 
@@ -113,16 +113,16 @@
 .panel-corner.hidden:active, .panel-corner.hidden:overview, .panel-corner.hidden:focus {
 	-panel-corner-border-color: rgba(0, 0, 0, .001);
 }
-#dashtopanelScrollview .badge {
+#CyclopTaskbarScrollview .badge {
 	color: rgba(255, 255, 255, 1);
 	font-weight: bold;
 	text-align: center;
 }
 
-#dashtopanelScrollview .number-overlay {
+#CyclopTaskbarScrollview .number-overlay {
 	background-color: rgba(0,0,0,0.8);
 }
 
-#dashtopanelScrollview .notification-badge {
+#CyclopTaskbarScrollview .notification-badge {
 	background-color: rgba(255,0,0,0.8);
 }
